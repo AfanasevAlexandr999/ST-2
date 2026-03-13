@@ -4,8 +4,8 @@
 
 double ropeGap(double earthRadius, double addedLength);
 double poolConcreteCost(double poolRadius, double walkwayWidth,
-    double pricePerSqm);
+                        double pricePerSqm);
 double poolFenceCost(double poolRadius, double walkwayWidth,
-    double pricePerM);
+                     double pricePerM);
 
-#endif // INCLUDE_TASKS_H_
+#endif  // INCLUDE_TASKS_H_

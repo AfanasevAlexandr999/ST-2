@@ -100,7 +100,7 @@ TEST(CircleTest, SmallRadius) {
   EXPECT_NEAR(c.getArea(), PI * 1e-6, 1e-18);
 }
 
-EST(RopeTaskTest, EarthRopeGap) {
+TEST(RopeTaskTest, EarthRopeGap) {
   double gap = ropeGap(6378100.0, 1.0);
   EXPECT_NEAR(gap, 1.0 / (2.0 * PI), 1e-6);
 }
